@@ -16,12 +16,14 @@
     font-size: 1em;
 
 }
+body {
+    position: absolute;
+}
 html, body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
-    position: absolute;
-    z-index: 2;
+    
 
 }
 header {
@@ -80,6 +82,8 @@ section.imagem {
     background-size: cover;
     /* bacground-attachement: fixed; é usado para dar o efeito parallax */
     background-attachment: fixed;
+    position: sticky;
+    background-position: center center;
 
 }
 section.imagem > p {
@@ -92,7 +96,6 @@ section.imagem > p {
 section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
-    position: sticky;
 
 }
 section#img02 {
