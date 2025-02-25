@@ -106,8 +106,3 @@ footer {
 
 }
 
-@media screen and (min-width: 768px) {
-    section.imagem {
-        background-attachment: fixed; /* Aplica apenas em telas maiores */
-    }
-}
