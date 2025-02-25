@@ -79,7 +79,7 @@ section.imagem {
     background-size: cover;
     background-position: center;
     /* bacground-attachement: fixed; é usado para dar o efeito parallax */
-    background-attachment: scroll;
+    background-attachment: fixed;
        
 }
 section.imagem > p {
