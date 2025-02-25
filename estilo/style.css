@@ -16,11 +16,6 @@
     font-size: 1em;
 
 }
-body.absol{
-    position: absolute;
-    z-index: 2;
-
-}
 html, body {
     min-height: 100vh;
     background-color: darkgray;
