@@ -78,7 +78,7 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.477);
     background-size: cover;
     /* bacground-attachement: fixed; é usado para dar o efeito parallax */
-    background-attachment: fixed;
+    background-attachment: scroll;
     
     
 
